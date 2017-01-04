@@ -7,16 +7,17 @@ body {
     background-color: #fbfdff;
     font: 16px/1.5 Helvetica, Arial, sans-serif;
     color: #5E6063;
+    margin-top : 3rem;
 }
 
 .container {
-    width: 30em;
-    margin: 10em auto;
+    width: 30rem;
+    margin: 2rem auto;
 }
 
 label {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
@@ -30,7 +31,7 @@ input[type="text"] {
     height: 60px;
     font-size: 20px;
     outline: none;
-    padding-left: 1em;
+    padding-left: 1rem;
 }
 
 #autocomplete-results {
@@ -45,7 +46,7 @@ input[type="text"] {
 
     #autocomplete-results li {
         list-style: none;
-        padding: 1em;
+        padding: 1rem;
     }
 
         #autocomplete-results li.highlighted {
@@ -55,4 +56,10 @@ input[type="text"] {
 
 #autocomplete-results.visible {
     opacity: 1;
+}
+
+.flag {
+    margin-top : 4.5px;
+    width: 2rem;
+    float: right;
 }
